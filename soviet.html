@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soviet Perspective - WWII</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lora', serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.95)), 
+                        url('https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            color: #f0f0f0;
+        }
+        .title-text {
+            font-family: 'Cinzel', serif;
+            text-shadow: 0 0 15px rgba(178, 34, 34, 0.7), 0 0 30px rgba(178, 34, 34, 0.4);
+        }
+        .timeline-marker {
+            background-color: #b22222;
+        }
+        .fact-card {
+            border-left: 4px solid #b22222;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen text-white p-4 md:p-8">
+    <div class="text-center mb-8">
+        <a href="https://drive.google.com/file/d/1J0S8tZ0wgjBI9TL0sunBNQ7PoCxI8gv3/view?usp=sharing" class="inline-block bg-red-900 hover:bg-red-800 text-white font-semibold py-2 px-6 rounded-lg transition duration-300 border border-red-700">
+Go to  your Task Solider  
+        </a>
+    </div>
+    <div class="max-w-6xl mx-auto">
+        <header class="text-center mb-12 mt-6 md:mt-12">
+            <h1 class="title-text text-4xl md:text-6xl font-bold mb-4">
+                SOVIET PERSPECTIVE
+            </h1>
+            <div class="w-full h-1 bg-gradient-to-r from-transparent via-[#b22222] to-transparent my-6"></div>
+            <p class="text-lg md:text-xl text-gray-200 font-light max-w-3xl mx-auto leading-relaxed">
+                The Great Patriotic War and the Soviet Union's pivotal role in defeating Nazi Germany
+            </p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <div class="fact-card bg-gray-800 bg-opacity-50 p-6 rounded-lg">
+                <h3 class="font-bold text-xl mb-2">Stalingrad</h3>
+                <p class="text-gray-300">The turning point of WWII, where Soviet forces encircled and destroyed the German 6th Army.</p>
+            </div>
+            <div class="fact-card bg-gray-800 bg-opacity-50 p-6 rounded-lg">
+                <h3 class="font-bold text-xl mb-2">Human Cost</h3>
+                <p class="text-gray-300">Suffered approximately 27 million deaths, the highest of any nation in WWII.</p>
+            </div>
+            <div class="fact-card bg-gray-800 bg-opacity-50 p-6 rounded-lg">
+                <h3 class="font-bold text-xl mb-2">Industrial Might</h3>
+                <p class="text-gray-300">Evacuated and rebuilt entire factories east of the Urals to maintain war production.</p>
+            </div>
+        </div>
+
+        <div class="mb-12">
+            <h2 class="title-text text-3xl font-bold mb-6">Key Events Timeline</h2>
+            <div class="relative h-2 bg-gray-700 rounded-full mb-8">
+                <div class="absolute h-full timeline-marker rounded-full" style="width: 70%"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div>
+                    <h4 class="font-bold">1941</h4>
+                    <p class="text-sm text-gray-300">Operation Barbarossa begins</p>
+                </div>
+                <div>
+                    <h4 class="font-bold">1942-43</h4>
+                    <p class="text-sm text-gray-300">Battle of Stalingrad</p>
+                </div>
+                <div>
+                    <h4 class="font-bold">1943</h4>
+                    <p class="text-sm text-gray-300">Battle of Kursk</p>
+                </div>
+                <div>
+                    <h4 class="font-bold">1945</h4>
+                    <p class="text-sm text-gray-300">Battle of Berlin</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gray-800 bg-opacity-50 p-6 rounded-lg mb-12">
+            <h2 class="title-text text-3xl font-bold mb-4">The Eastern Front</h2>
+            <p class="mb-4 text-gray-300">
+                The Soviet Union bore the brunt of Nazi Germany's military might, with the Eastern Front becoming 
+                the largest and bloodiest theater of war in history. After initial devastating losses in 1941, 
+                the Soviet military reorganized and began to push back, culminating in the decisive victory at 
+                Stalingrad - often considered the turning point of the entire war.
+            </p>
+            <p class="text-gray-300">
+                Soviet industry, despite losing much of its western territories, managed to outproduce Germany 
+                in key areas like tank production. The T-34 tank became emblematic of Soviet technological 
+                and industrial achievements during the war. By 1945, the Red Army had advanced from Stalingrad 
+                all the way to Berlin, capturing the German capital and effectively ending the war in Europe.
+            </p>
+        </div>
+
+        <footer class="mt-16 text-center text-gray-400 text-sm">
+            <p>© 2023 WWII Historical Perspectives | Soviet Perspective</p>
+            <p class="mt-2">This content is presented for historical education purposes only.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

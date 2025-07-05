@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>German Perspective - WWII</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lora', serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.95)), 
+                        url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            color: #f0f0f0;
+        }
+        .title-text {
+            font-family: 'Cinzel', serif;
+            text-shadow: 0 0 15px rgba(139, 0, 0, 0.7), 0 0 30px rgba(139, 0, 0, 0.4);
+        }
+        .timeline-marker {
+            background-color: #8b0000;
+        }
+        .fact-card {
+            border-left: 4px solid #8b0000;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen text-white p-4 md:p-8">
+    <div class="text-center mb-8">
+        <a href="https://drive.google.com/file/d/1J0S8tZ0wgjBI9TL0sunBNQ7PoCxI8gv3/view?usp=sharing" class="inline-block bg-red-900 hover:bg-red-800 text-white font-semibold py-2 px-6 rounded-lg transition duration-300 border border-red-700">
+Go to  your Task Solider  
+        </a>
+    </div>
+    <div class="max-w-6xl mx-auto">
+        <header class="text-center mb-12 mt-6 md:mt-12">
+            <h1 class="title-text text-4xl md:text-6xl font-bold mb-4">
+                GERMAN PERSPECTIVE
+            </h1>
+            <div class="w-full h-1 bg-gradient-to-r from-transparent via-[#8b0000] to-transparent my-6"></div>
+            <p class="text-lg md:text-xl text-gray-200 font-light max-w-3xl mx-auto leading-relaxed">
+                The Third Reich's military innovations and strategic campaigns during World War II
+            </p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <div class="fact-card bg-gray-800 bg-opacity-50 p-6 rounded-lg">
+                <h3 class="font-bold text-xl mb-2">Blitzkrieg Tactics</h3>
+                <p class="text-gray-300">Pioneered rapid, coordinated attacks combining air power and armored units to overwhelm enemies quickly.</p>
+            </div>
+            <div class="fact-card bg-gray-800 bg-opacity-50 p-6 rounded-lg">
+                <h3 class="font-bold text-xl mb-2">Technological Advancements</h3>
+                <p class="text-gray-300">Developed advanced weapons including the V-2 rocket, jet aircraft, and improved tank designs.</p>
+            </div>
+            <div class="fact-card bg-gray-800 bg-opacity-50 p-6 rounded-lg">
+                <h3 class="font-bold text-xl mb-2">European Conquest</h3>
+                <p class="text-gray-300">By 1941, Germany controlled or allied with most of continental Europe through military campaigns.</p>
+            </div>
+        </div>
+
+        <div class="mb-12">
+            <h2 class="title-text text-3xl font-bold mb-6">Key Events Timeline</h2>
+            <div class="relative h-2 bg-gray-700 rounded-full mb-8">
+                <div class="absolute h-full timeline-marker rounded-full" style="width: 80%"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div>
+                    <h4 class="font-bold">1939</h4>
+                    <p class="text-sm text-gray-300">Invasion of Poland begins WWII</p>
+                </div>
+                <div>
+                    <h4 class="font-bold">1940</h4>
+                    <p class="text-sm text-gray-300">Fall of France</p>
+                </div>
+                <div>
+                    <h4 class="font-bold">1941</h4>
+                    <p class="text-sm text-gray-300">Operation Barbarossa</p>
+                </div>
+                <div>
+                    <h4 class="font-bold">1944-45</h4>
+                    <p class="text-sm text-gray-300">Defeat and surrender</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gray-800 bg-opacity-50 p-6 rounded-lg mb-12">
+            <h2 class="title-text text-3xl font-bold mb-4">Military Strategy</h2>
+            <p class="mb-4 text-gray-300">
+                The German military (Wehrmacht) emphasized mobility, initiative, and decentralized decision-making 
+                through the Auftragstaktik (mission-type tactics) system. This allowed for rapid adaptation to battlefield 
+                conditions and often outmaneuvered more rigid Allied command structures in the early war years.
+            </p>
+            <p class="text-gray-300">
+                The Luftwaffe provided close air support that was integral to Blitzkrieg success, while the Kriegsmarine 
+                focused on U-boat warfare to disrupt Allied supply lines across the Atlantic.
+            </p>
+        </div>
+
+        <footer class="mt-16 text-center text-gray-400 text-sm">
+            <p>© 2023 WWII Historical Perspectives | German Perspective</p>
+            <p class="mt-2">This content is presented for historical education purposes only.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
